@@ -1,0 +1,73 @@
+
+#ingreso,
+#titulo {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    background-image:  linear-gradient(57deg,rgb(0, 155, 194) 0%,rgb(42, 45, 218) 46.63%,rgb(230, 225, 212) 100%)
+
+    
+}
+#registro,
+#principal,
+#camara {
+    display: none;
+    background-image: linear-gradient(57deg,rgb(0, 155, 194) 0%,rgb(42, 45, 218) 46.63%,rgb(230, 225, 212) 100%)
+}
+
+.errorCampo{
+    border-color:rgb(255, 0, 98);
+    border-width: 5px;
+}
+.menu {
+    width: 0%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition:0.5s;
+    z-index: 1; 
+    
+ }
+ .botonCerrar {
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+     color:rgba(243, 250, 247, 0.719);
+     text-decoration: none;
+ }
+ .opciones {
+    text-decoration: none;
+    color: rgb(242, 248, 248);
+    padding-left: 30px;
+}
+
+.opciones:visited {
+    color: rgb(143, 8, 8);
+}
+.inputget {
+    display: none;
+}
+
+.container-photo {
+    background-color: #e0e0d7;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.photo {
+    height: 200px;
+    object-fit: cover; 
+}
+body{
+
+background-image: url(fondo.pgn);
+background-image: image-set(fondo);
+
+}
+
